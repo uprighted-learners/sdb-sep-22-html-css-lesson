@@ -36,6 +36,10 @@ body {
 }
 
 nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
     background-color: #2c3e50 !important;
 }
 
@@ -46,8 +50,23 @@ nav {
 .nav-link {
     text-decoration: none;
     color: whitesmoke;
+    background-color: red;
 }
 
 .nav-link:hover {
     color: #2980b9;
+}
+
+.form-display {
+    display: block;
+}
+
+#email-input {
+    width: 15em;
+}
+
+.test {
+    display: block;
+    border: 3px solid purple;
+    padding-top: 2em
 }
