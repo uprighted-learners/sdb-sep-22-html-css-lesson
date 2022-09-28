@@ -1,0 +1,53 @@
+/*  CSS Follows Rulesets */
+
+/* 
+
+Ruleset
+
+Selector {
+    declaration
+    property: value;
+    property: value;
+}
+
+*/
+
+/* 
+
+Box Model
+
+Every element has a margin, border, and padding
+
+* Margin -> space from element to its parent
+* Border -> a frame that encompasses an element
+* Padding -> space between element and its children elements
+
+*/
+
+/* * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
+
+body {
+    background-color: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #2c3e50 !important;
+}
+
+.menu-options {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-link:hover {
+    color: #2980b9;
+}
